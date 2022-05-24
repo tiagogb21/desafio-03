@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import PersonalLogin from "../components/login/PersonalLogin.vue";
+import PersonalLogin from '../components/login/PersonalLogin.vue';
 
 export default {
-  name: "LoginView",
+  name: 'LoginView',
   components: {
     PersonalLogin,
   },

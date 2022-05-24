@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import ShoppingCart from "../components/shopping-cart/ShoppingCart.vue";
+import ShoppingCart from '../components/shopping-cart/ShoppingCart.vue';
 
 export default {
-  name: "MenView",
+  name: 'MenView',
   components: {
     ShoppingCart,
   },

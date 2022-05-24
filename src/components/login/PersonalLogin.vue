@@ -8,19 +8,19 @@
 </template>
 
 <script>
-import LoginInput from "./LoginInput.vue";
-import HeaderLogin from "./HeaderLogin.vue";
+import LoginInput from './LoginInput.vue';
+import HeaderLogin from './HeaderLogin.vue';
 
 export default {
-  name: "PersonalLogin",
+  name: 'PersonalLogin',
   components: {
     LoginInput,
     HeaderLogin,
   },
   data() {
     return {
-      clientName: "",
-      title: "Login",
+      clientName: '',
+      title: 'Login',
     };
   },
 };

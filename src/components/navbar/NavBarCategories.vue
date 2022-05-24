@@ -16,26 +16,26 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex';
 
 export default {
-  name: "NavbarCategories",
+  name: 'NavbarCategories',
   data() {
     return {
       categories: null,
       loading: true,
-      categoryName: "",
+      categoryName: '',
     };
   },
   computed: {
-    ...mapGetters(["categoriesName"]),
+    ...mapGetters(['categoriesName']),
   },
   created() {
-    this.$store.dispatch("getCategoriesName");
+    this.$store.dispatch('getCategoriesName');
   },
   methods: {
     getName(value) {
-      this.$store.dispatch("getCategoryItems", value);
+      this.$store.dispatch('getCategoryItems', value);
     },
   },
 };

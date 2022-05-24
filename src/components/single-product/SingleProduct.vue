@@ -13,10 +13,10 @@
 </template>
 
 <script>
-import HeaderPrincipal from "../header/PrincipalHeader.vue";
+import HeaderPrincipal from '../header/PrincipalHeader.vue';
 
 export default {
-  name: "SingleProduct",
+  name: 'SingleProduct',
   data() {
     return {
       product: this.$store.state.item,

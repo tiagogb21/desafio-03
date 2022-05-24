@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import Products from "../products/AllProducts.vue";
-import HeaderPrincipal from "../header/PrincipalHeader.vue";
+import Products from '../products/AllProducts.vue';
+import HeaderPrincipal from '../header/PrincipalHeader.vue';
 
 export default {
-  name: "HomeProducts",
+  name: 'HomeProducts',
   components: {
     Products,
     HeaderPrincipal,

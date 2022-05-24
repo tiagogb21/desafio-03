@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import NavbarCategories from "../navbar/NavBarCategories.vue";
+import NavbarCategories from '../navbar/NavBarCategories.vue';
 
 export default {
-  name: "HaderPrincipal",
+  name: 'HaderPrincipal',
   components: {
     NavbarCategories,
   },

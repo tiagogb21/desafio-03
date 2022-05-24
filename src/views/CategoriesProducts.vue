@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import ProductsByCategories from "../components/products-by-categories/ProductsByCategories.vue";
+import ProductsByCategories from '../components/products-by-categories/ProductsByCategories.vue';
 
 export default {
-  name: "CategoriesProducts",
+  name: 'CategoriesProducts',
   components: {
     ProductsByCategories,
   },

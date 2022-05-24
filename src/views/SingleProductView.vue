@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import SingleProduct from "../components/single-product/SingleProduct.vue";
+import SingleProduct from '../components/single-product/SingleProduct.vue';
 
 export default {
-  name: "SingleProductView",
+  name: 'SingleProductView',
   components: {
     SingleProduct,
   },

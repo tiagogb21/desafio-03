@@ -21,18 +21,18 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex';
 
 export default {
-  name: "RequisitionApi",
+  name: 'RequisitionApi',
   data() {
     return {};
   },
   computed: {
-    ...mapGetters(["productItems", "productItemById", "addProductToCart"]),
+    ...mapGetters(['productItems', 'productItemById', 'addProductToCart']),
   },
   created() {
-    this.$store.dispatch("getProductItems");
+    this.$store.dispatch('getProductItems');
   },
 };
 </script>

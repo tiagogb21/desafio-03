@@ -43,10 +43,10 @@
 </template>
 
 <script>
-import PrincipalHeader from "../header/PrincipalHeader.vue";
+import PrincipalHeader from '../header/PrincipalHeader.vue';
 
 export default {
-  name: "ShoppingCart",
+  name: 'ShoppingCart',
   data() {
     return {
       cartItems: this.$store.state.cartItems,

@@ -8,10 +8,10 @@
 
 <script>
 export default {
-  name: "LoginInput",
+  name: 'LoginInput',
   data() {
     return {
-      clientName: "",
+      clientName: '',
     };
   },
 };

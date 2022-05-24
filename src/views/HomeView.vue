@@ -5,10 +5,10 @@
 </template>
 
 <script>
-import HomeProducts from "../components/home/HomeProducts.vue";
+import HomeProducts from '../components/home/HomeProducts.vue';
 
 export default {
-  name: "HomeView",
+  name: 'HomeView',
   components: {
     HomeProducts,
   },

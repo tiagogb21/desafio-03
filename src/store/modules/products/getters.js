@@ -24,7 +24,7 @@ const getters = {
 
   productItemSearch: (state) => (search) => {
     const t = search.toLowerCase();
-    if (search === "rate") {
+    if (search === 'rate') {
       const teste = state.productItems.sort((a, b) => {
         if (a.rating[t] < b.rating[t]) {
           return -1;

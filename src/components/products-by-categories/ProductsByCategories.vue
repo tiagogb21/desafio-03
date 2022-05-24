@@ -29,11 +29,11 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-import PrincipalHeader from "../header/PrincipalHeader.vue";
+import { mapGetters } from 'vuex';
+import PrincipalHeader from '../header/PrincipalHeader.vue';
 
 export default {
-  name: "ProductsByCategories",
+  name: 'ProductsByCategories',
   components: {
     PrincipalHeader,
   },
@@ -41,7 +41,7 @@ export default {
     return {};
   },
   computed: {
-    ...mapGetters(["categoryItems", "productItemById", "addProductToCart"]),
+    ...mapGetters(['categoryItems', 'productItemById', 'addProductToCart']),
   },
 };
 </script>
